@@ -13,63 +13,61 @@
 <link rel="stylesheet" href="../assets/slider.css">
 <link rel="stylesheet" href="../assets/stylecss.css">
 <script src="../assets/responsive.js"></script>
+<script src="../assets/backtop.js"></script>
 	
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="Scripts/JFunc.js"></script>
+<script type="text/javascript" src="Scripts/jquery-1.10.2.js"></script>
+	
 <title>SIGGEN</title> 	
-
+<link rel="icon" type="image/x-icon" href="../img/logo.png">
 </head>
+	
 <body>
 
-
-
+<!--Navigation Bar-->
 <div class="topnav" id="myTopnav">   
-  <a href="../index.html" >Home</a>
-  <a href="../pages/information.html">Information</a>
-	<a href="../pages/seminar.html" >Seminar Series</a>
+	<a href="../index.html" >Home</a>
+	<a href="../pages/information.html">Information</a>
+	<a href="../pages/webinar.html">Webinar Series</a>
 	<a href="../pages/events.html" class="active">Events</a>
-	<a href="../pages/news.html">News</a>
-	
-    <div class="dropdown">
-	  <a class="dropbtn disabled" href="../pages/conferences.html">
-INLG Conferences
-      <i class="fa fa-caret-down"></i>
-		</a>
-    <div class="dropdown-content"> 
-      <a href="https://inlgmeeting.github.io/calls.html">INLG 2022</a>
-	<a href="https://inlg2021.github.io/index.html">INLG 2021</a>
-		<a href="https://www.inlg2020.org/">INLG 2020</a>
-			<a href="https://www.inlg2019.com/">INLG 2019</a>
-
-    </div>
-  </div> 
 	<a href="../pages/contact.html#contact">Contact</a>
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
-
 
 
 
 <div class="container-fluid">
   <div class="row">
-	      <div class="col col-lg-2"> 	</div>
+	  <div class="col col-lg-2"> 
+			  
+				<div class="alert alert-success" role="alert">
+				  <h4 class="alert-heading">News!</h4>	  
+				</div>
+			  
+				<p>
+					<iframe src="../text/news.html" frameborder="0" ></iframe>
+				</p>
+	  </div>
 	  
-
-
 	  
 	  <div class="col-sm border"> 
-		  <div class="text_introduction"><br><h1> <img src="../img/logo.png" width="49" height="49" alt=""/> SIGGEN </h1><h3><img src="../img/logo-acl-color.png"  width="10%" alt=""/>  <i>ACL Special Interest Group on Natural Language Generation
- </i></h3>
-	  </div> <hr> 
+		  <div class="text_introduction"><br>
+			  <h1> <img src="../img/logo.png" width="54" height="54" alt=""/> SIGGEN </h1>
+			  <h4><img src="../img/logo-acl-color.png"  width="8%" alt=""/>
+			  <i>ACL Special Interest Group on Natural Language Generation</i>
+			  </h4>
+		  </div> <hr> 
 		   <div class="text_info"  style="text-align: left">
-			   
-<h2><span class="mw-headline" id="Recent_Events">Recent Events</span></h2>
+<div class="alert alert-warning" role="alert"> <h3 align="left"><b>RECENT EVENTS</b></h3></div>
+
 			   <h5>
 <p><a rel="nofollow" class="external text" href="https://inlg2021.github.io">INLG 2021</a> was held online (virtually from University of Aberdeen, Scotland, UK) in September 2021. Conference proceedings are published in the <a rel="nofollow" class="external text" href="https://www.aclweb.org/anthology/volumes/2021.inlg-1/">ACL Anthology</a>
 </p><p>2021 SIGGEN supported events:
@@ -126,11 +124,12 @@ INLG Conferences
 	</div>	  </div>
 	  
 
-<div class="row">
-<div class="footer">
- <hm> Copyright 2022 | All Rights Reserved SIGGEN </hm>
-</div>
+	<div class="row">
+		<div class="footer">
+			<hm> Copyright 2022 | All Rights Reserved SIGGEN | <button onclick="topFunction()" id="myBtn" title="Go to top">Back To Top</button></hm>
+		</div>
 	</div>
+	
 	</div>
 </body>
 </html>
