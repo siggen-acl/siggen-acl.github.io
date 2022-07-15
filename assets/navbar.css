@@ -2,6 +2,10 @@
 padding: 0px;
 }
 
+body { padding-top: 60px; font-family: Arial, sans-serif;}
+@media screen and (max-width: 768px) {
+  body { padding-top: 60px; }
+}
 
 
 .topnav {
