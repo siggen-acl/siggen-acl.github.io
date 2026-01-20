@@ -1,0 +1,4 @@
+# From https://securitybot.dev/generate-robots-txt-file
+# Allow all crawlers
+User-agent: *
+Disallow:
